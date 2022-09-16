@@ -13,7 +13,6 @@ class User_details(models.Model):
     is_suspend = models.BooleanField(default=False)
     created_at = models.DateTimeField(auto_now=False, editable=False)
     updated_at = models.DateTimeField(auto_now=False)
-    updated_at = models.DateTimeField(auto_now=True)
     
     def __str__(self):
         return self.address
